@@ -38,4 +38,3 @@ jobs:
           path: ${{ steps.export.outputs.build_directory }}/*.apk
           if-no-files-found: error
           retention-days: 14
-          
